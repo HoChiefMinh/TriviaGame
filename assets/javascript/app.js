@@ -85,13 +85,13 @@ function restartButton() {
     $('#log').append(`
         <p>You bring Dishonor on your whole family!</p>
         <video width="320" height="240" autoplay controls>
-            <source src="../trivia-game/assets/videos/Dishonor.mp4" type="video/mp4" >
+            <source src="../triviagame/assets/videos/Dishonor.mp4" type="video/mp4" >
         </video>`);
   } else {
     $('#log').append(`
         <p>You bring Honor!</p>
         <video width="320" height="240" autoplay controls>
-            <source src="../trivia-game/assets/videos/Good.mp4 " type="video/mp4" >
+            <source src="..triviagame/assets/videos/Good.mp4" type="video/mp4" >
         </video>`);
   }
 }
